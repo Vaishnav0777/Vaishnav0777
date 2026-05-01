@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="./github-header.svg" alt="Header Banner" width="100%"/>
+</div>
+<div align="center">
 
 # Hey there! I'm Vaishnav Venkatesh 👋
 
