@@ -2,12 +2,12 @@
   <img src="./github-header_1.svg" alt="Header Banner" width="100%"/>
 </div>
 <div align="center">
+  <img src="./github-header_1.svg" alt="Header Banner" width="100%"/>
+</div>
 
-# Hey there! I'm Vaishnav Venkatesh 👋
+<div align="center">
 
-### 🎓 Undergraduate Student | 🤖 AI/ML Enthusiast | 💻 Full-Stack Explorer
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-venkatesh-76b529319/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HERE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vaishnav0777)
 [![Profile Views](https://komarev.com/ghpvc/?username=Vaishnav0777&color=blueviolet&style=for-the-badge)](https://github.com/Vaishnav0777)
 
@@ -17,10 +17,23 @@
 
 ### 🧠 About Me
 
-- 🔭 I'm currently working on **AI/ML projects** and building full-stack applications
-- 🌱 I'm exploring **Deep Learning, Computer Vision, and NLP**
-- 💡 I love turning ideas into real-world applications using AI
-- ⚡ Fun fact: I believe the best way to learn is to **build, break, and rebuild**
+I'm an undergraduate student who sits at the intersection of **technology and product thinking**. I don't just build things — I think about *why* they should exist, *who* they're for, and *how* they create value.
+
+- 🔭 Currently building **AI-powered products** that solve real-world problems
+- 🧩 Passionate about **product management** — user research, roadmaps, prioritization, and shipping things that matter
+- 🤖 Deep interest in **AI/ML, Deep Learning, and Computer Vision**
+- 📊 I love turning messy problems into clean, user-centric solutions
+- ⚡ My superpower: bridging the gap between **what's technically possible** and **what users actually need**
+
+---
+
+### 🎯 How I Think
+
+```
+💡 Spot a problem → 🔍 Research users → 📐 Design a solution → 💻 Build it → 📈 Measure impact → 🔄 Iterate
+```
+
+I approach every project with a **product mindset** — starting from the user's pain point, not the technology. Whether it's training a model or designing an interface, I ask: *does this make someone's life better?*
 
 ---
 
@@ -41,6 +54,12 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![scikit--learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
+**Product & Design**
+
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Miro](https://img.shields.io/badge/Miro-FFD02F?style=for-the-badge&logo=miro&logoColor=black)
+
 **Web & Tools**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -54,14 +73,23 @@
 
 ### 🚀 Featured Projects
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| [🤖 SmartStock-Agents](https://github.com/Vaishnav0777/SmartStock-Agents) | AI-powered stock analysis using intelligent agents | TypeScript |
-| [🧏 AI Sign Language Translator](https://github.com/Vaishnav0777/AI-Sign-Language-Translator-With-learning-mode) | Real-time sign language recognition with learning mode | Jupyter / Python |
-| [🎬 Online Movie Ticket Booking](https://github.com/Vaishnav0777/online-movie-ticket-booking-system) | Full-stack movie booking platform | TypeScript |
-| [☁️ Artifex Creator Cloud](https://github.com/Vaishnav0777/artifex-creator-cloud) | Cloud-based creative tool for content generation | TypeScript |
-| [🧠 MindMesh Creator](https://github.com/Vaishnav0777/mindmesh-creator) | Interactive mind mapping and brainstorming tool | TypeScript |
-| [⚡ FlashBrainBooster](https://github.com/Vaishnav0777/flashbrainbooster) | Smart flashcard app for accelerated learning | TypeScript |
+| Project | What it does | Why I built it | Tech |
+|---------|-------------|----------------|------|
+| [🤖 SmartStock-Agents](https://github.com/Vaishnav0777/SmartStock-Agents) | AI agents that analyze stock market data | Wanted to explore how autonomous agents can assist in financial decision-making | TypeScript |
+| [🧏 AI Sign Language Translator](https://github.com/Vaishnav0777/AI-Sign-Language-Translator-With-learning-mode) | Real-time sign language recognition with a learning mode | Making communication more accessible for the hearing-impaired community | Python, Jupyter |
+| [🎬 Movie Ticket Booking](https://github.com/Vaishnav0777/online-movie-ticket-booking-system) | End-to-end movie booking platform | Explored full product lifecycle — from user flows to booking confirmation | TypeScript |
+| [☁️ Artifex Creator Cloud](https://github.com/Vaishnav0777/artifex-creator-cloud) | Cloud-based creative content generation tool | Built for creators who need AI-assisted content at scale | TypeScript |
+| [🧠 MindMesh Creator](https://github.com/Vaishnav0777/mindmesh-creator) | Interactive mind mapping and brainstorming tool | Solving the "blank page" problem for product ideation sessions | TypeScript |
+| [⚡ FlashBrainBooster](https://github.com/Vaishnav0777/flashbrainbooster) | Smart flashcard app with spaced repetition | Learning science meets product design — optimizing how people retain knowledge | TypeScript |
+
+---
+
+### 📚 What I'm Learning
+
+🔹 How to write better **PRDs** (Product Requirement Documents)  
+🔹 **User research methods** — interviews, surveys, and behavioral analytics  
+🔹 Advanced **Deep Learning** — transformers, diffusion models, and reinforcement learning  
+🔹 **System design** — building products that scale  
 
 ---
 
@@ -96,8 +124,9 @@
 
 ### 🤝 Let's Connect!
 
-💬 *I'm always open to collaborating on interesting projects and learning opportunities.*
+💬 *I love talking about product ideas, AI experiments, and building things that matter.*
 
-*If you like my work, consider giving a ⭐ — it motivates me to build more!*
+*Whether you're a recruiter, a fellow builder, or someone with a cool idea — let's chat!*
 
 </div>
+
