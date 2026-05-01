@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280">
+  <style>
+    @keyframes blink { 0%,45%,55%,100%{ry:14} 50%{ry:1} }
+    @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+    @keyframes typing { 0%{width:0} 50%{width:155} 51%{width:0} 100%{width:155} }
+    @keyframes cursor { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+    @keyframes wave { 0%,60%,100%{transform:rotate(0deg)} 10%{transform:rotate(14deg)} 20%{transform:rotate(-8deg)} 30%{transform:rotate(14deg)} 40%{transform:rotate(-4deg)} 50%{transform:rotate(10deg)} }
+    @keyframes glow { 0%,100%{opacity:0.3} 50%{opacity:0.7} }
+    @keyframes dash { to { stroke-dashoffset: -20; } }
+    @keyframes fadeSlide1 { 0%,100%{opacity:0;transform:translateX(-10px)} 10%,40%{opacity:1;transform:translateX(0)} 45%{opacity:0;transform:translateX(10px)} }
+    @keyframes fadeSlide2 { 0%,45%{opacity:0;transform:translateX(-10px)} 55%,85%{opacity:1;transform:translateX(0)} 90%,100%{opacity:0;transform:translateX(10px)} }
+    .eyes { animation: blink 3.5s ease-in-out infinite; }
+    .mascot { animation: float 3s ease-in-out infinite; }
+    .hand { transform-origin: 148px 175px; animation: wave 2.5s ease-in-out infinite; }
+    .code-line { animation: dash 2s linear infinite; }
+  </style>
+  
+  <!-- Background -->
+  <rect width="800" height="280" rx="16" fill="#0D1117"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.04" stroke="#58A6FF" stroke-width="0.5">
+    <line x1="0" y1="40" x2="800" y2="40"/><line x1="0" y1="80" x2="800" y2="80"/>
+    <line x1="0" y1="120" x2="800" y2="120"/><line x1="0" y1="160" x2="800" y2="160"/>
+    <line x1="0" y1="200" x2="800" y2="200"/><line x1="0" y1="240" x2="800" y2="240"/>
+    <line x1="80" y1="0" x2="80" y2="280"/><line x1="160" y1="0" x2="160" y2="280"/>
+    <line x1="240" y1="0" x2="240" y2="280"/><line x1="320" y1="0" x2="320" y2="280"/>
+    <line x1="400" y1="0" x2="400" y2="280"/><line x1="480" y1="0" x2="480" y2="280"/>
+    <line x1="560" y1="0" x2="560" y2="280"/><line x1="640" y1="0" x2="640" y2="280"/>
+    <line x1="720" y1="0" x2="720" y2="280"/>
+  </g>
+  
+  <!-- Floating particles -->
+  <circle cx="680" cy="60" r="2" fill="#58A6FF" opacity="0.4">
+    <animate attributeName="cy" values="60;45;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="180" r="1.5" fill="#7F77DD" opacity="0.5">
+    <animate attributeName="cy" values="180;165;180" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="650" cy="220" r="1.8" fill="#5DCAA5" opacity="0.4">
+    <animate attributeName="cy" values="220;208;220" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="120" r="1.2" fill="#EF9F27" opacity="0.3">
+    <animate attributeName="cy" values="120;110;120" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- === MASCOT (owl-bot hybrid — wise + techy) === -->
+  <g class="mascot" transform="translate(65, 35)">
+    
+    <!-- Body -->
+    <ellipse cx="100" cy="165" rx="58" ry="65" fill="#58A6FF"/>
+    
+    <!-- Belly -->
+    <ellipse cx="100" cy="175" rx="40" ry="45" fill="#C9D1D9" opacity="0.9"/>
+    
+    <!-- Head -->
+    <circle cx="100" cy="95" r="52" fill="#58A6FF"/>
+    
+    <!-- Ear tufts -->
+    <path d="M60 55 L68 30 L82 58" fill="#3B82D4"/>
+    <path d="M118 58 L132 30 L140 55" fill="#3B82D4"/>
+    
+    <!-- Face plate -->
+    <ellipse cx="100" cy="100" rx="38" ry="34" fill="#E6EDF3" opacity="0.95"/>
+    
+    <!-- Eyes (big round owl eyes with glasses) -->
+    <!-- Glasses frame -->
+    <circle cx="80" cy="94" r="20" fill="none" stroke="#30363D" stroke-width="3"/>
+    <circle cx="120" cy="94" r="20" fill="none" stroke="#30363D" stroke-width="3"/>
+    <line x1="100" y1="90" x2="100" y2="90" stroke="#30363D" stroke-width="3"/>
+    <path d="M100 90 Q100 86 100 90" stroke="#30363D" stroke-width="3" fill="none"/>
+    <!-- Bridge -->
+    <path d="M96 92 Q100 88 104 92" stroke="#30363D" stroke-width="2.5" fill="none"/>
+    
+    <!-- Eye whites -->
+    <ellipse cx="80" cy="94" rx="14" ry="14" fill="white" class="eyes"/>
+    <ellipse cx="120" cy="94" rx="14" ry="14" fill="white" class="eyes"/>
+    
+    <!-- Pupils (looking slightly to the right — at the text) -->
+    <circle cx="84" cy="93" r="7" fill="#0D1117"/>
+    <circle cx="124" cy="93" r="7" fill="#0D1117"/>
+    
+    <!-- Eye shine -->
+    <circle cx="87" cy="90" r="2.5" fill="white"/>
+    <circle cx="127" cy="90" r="2.5" fill="white"/>
+    
+    <!-- Beak -->
+    <path d="M93 108 L100 118 L107 108" fill="#EF9F27" stroke="#D48A1E" stroke-width="0.5"/>
+    
+    <!-- Waving wing/hand -->
+    <g class="hand">
+      <path d="M148 155 Q172 148 168 170 Q165 185 148 180 Z" fill="#3B82D4"/>
+      <!-- Little fingers waving -->
+      <circle cx="170" cy="155" r="4" fill="#3B82D4"/>
+      <circle cx="174" cy="162" r="3.5" fill="#3B82D4"/>
+    </g>
+    
+    <!-- Other wing (holding laptop) -->
+    <path d="M42 158 Q28 150 32 170 Q35 185 52 180 Z" fill="#3B82D4"/>
+    
+    <!-- Tiny laptop -->
+    <g transform="translate(20, 185)">
+      <rect x="0" y="0" width="45" height="28" rx="3" fill="#1E2A3A" stroke="#30363D" stroke-width="1"/>
+      <!-- Screen content -->
+      <rect x="4" y="3" width="37" height="20" rx="1" fill="#0D1117"/>
+      <line x1="7" y1="8" x2="22" y2="8" stroke="#7F77DD" stroke-width="1.5" opacity="0.8"/>
+      <line x1="7" y1="13" x2="32" y2="13" stroke="#5DCAA5" stroke-width="1.5" opacity="0.6"/>
+      <line x1="7" y1="18" x2="27" y2="18" stroke="#58A6FF" stroke-width="1.5" opacity="0.7"/>
+      <!-- Keyboard base -->
+      <rect x="-5" y="28" width="55" height="4" rx="1" fill="#30363D"/>
+    </g>
+    
+    <!-- Feet -->
+    <ellipse cx="80" cy="232" rx="16" ry="6" fill="#EF9F27"/>
+    <ellipse cx="120" cy="232" rx="16" ry="6" fill="#EF9F27"/>
+  </g>
+
+  <!-- === TEXT CONTENT === -->
+  
+  <!-- Name -->
+  <text x="310" y="75" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="32" font-weight="700" fill="#E6EDF3">
+    Hi, I'm Vaishnav
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-3;0,0" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Animated role text -->
+  <g>
+    <text x="310" y="110" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="18" fill="#58A6FF" font-weight="500" opacity="0">
+      AI/ML Enthusiast
+      <animate attributeName="opacity" values="0;0;1;1;0;0" dur="8s" repeatCount="indefinite" keyTimes="0;0.05;0.1;0.4;0.45;1"/>
+    </text>
+    <text x="310" y="110" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="18" fill="#5DCAA5" font-weight="500" opacity="0">
+      Product Enthusiast
+      <animate attributeName="opacity" values="0;0;0;0;0;1;1;0;0;0" dur="8s" repeatCount="indefinite" keyTimes="0;0.45;0.48;0.49;0.5;0.55;0.85;0.9;0.95;1"/>
+    </text>
+  </g>
+  
+  <!-- Tagline -->
+  <text x="310" y="145" font-family="'Segoe UI', 'Helvetica Neue', sans-serif" font-size="13" fill="#8B949E">
+    Building intelligent systems, one commit at a time
+  </text>
+  
+  <!-- Tech badges -->
+  <!-- Python -->
+  <rect x="310" y="165" width="80" height="26" rx="13" fill="#3776AB" opacity="0.15"/>
+  <text x="350" y="183" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#58A6FF" font-weight="500">Python</text>
+  
+  <!-- TypeScript -->
+  <rect x="400" y="165" width="95" height="26" rx="13" fill="#3178C6" opacity="0.15"/>
+  <text x="447" y="183" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#79C0FF" font-weight="500">TypeScript</text>
+  
+  <!-- AI/ML -->
+  <rect x="505" y="165" width="65" height="26" rx="13" fill="#7F77DD" opacity="0.15"/>
+  <text x="537" y="183" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#AFA9EC" font-weight="500">AI/ML</text>
+  
+  <!-- React -->
+  <rect x="580" y="165" width="70" height="26" rx="13" fill="#61DAFB" opacity="0.12"/>
+  <text x="615" y="183" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="12" fill="#61DAFB" font-weight="500">React</text>
+  
+  <!-- Code snippet decoration -->
+  <g transform="translate(310, 208)" opacity="0.6">
+    <text font-family="'Courier New', monospace" font-size="12" fill="#7F77DD">def </text>
+    <text x="28" font-family="'Courier New', monospace" font-size="12" fill="#5DCAA5">build_future</text>
+    <text x="116" font-family="'Courier New', monospace" font-size="12" fill="#8B949E">(self):</text>
+    <text y="18" font-family="'Courier New', monospace" font-size="12" fill="#8B949E">    </text>
+    <text x="28" y="18" font-family="'Courier New', monospace" font-size="12" fill="#7F77DD">return </text>
+    <text x="78" y="18" font-family="'Courier New', monospace" font-size="12" fill="#EF9F27">"something amazing"</text>
+    <!-- Blinking cursor -->
+    <rect x="232" y="10" width="2" height="14" fill="#58A6FF">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="310" y1="255" x2="700" y2="255" stroke="#58A6FF" stroke-width="0.5" opacity="0.2"/>
+  <line x1="310" y1="255" x2="500" y2="255" stroke="#58A6FF" stroke-width="1.5" opacity="0.5" stroke-dasharray="4 4" class="code-line"/>
+</svg>
