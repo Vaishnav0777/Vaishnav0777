@@ -3,7 +3,7 @@
 </div>
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/YOUR-LINKEDIN-HERE](https://www.linkedin.com/in/vaishnav-venkatesh-76b529319/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vaishnav-venkatesh-76b529319/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vaishnav0777)
 [![Profile Views](https://komarev.com/ghpvc/?username=Vaishnav0777&color=blueviolet&style=for-the-badge)](https://github.com/Vaishnav0777)
 
