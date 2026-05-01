@@ -2,10 +2,6 @@
   <img src="./github-header_1.svg" alt="Header Banner" width="100%"/>
 </div>
 <div align="center">
-  <img src="./github-header_1.svg" alt="Header Banner" width="100%"/>
-</div>
-
-<div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN-HERE)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vaishnav0777)
